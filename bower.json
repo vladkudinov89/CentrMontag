@@ -1,0 +1,26 @@
+{
+  "name": "CentrMontag",
+  "description": "description",
+  "main": "",
+  "authors": [
+    "Vlad Kudinov"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "external",
+    "src"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap": "latest",
+    "owl-carousel2": "latest",
+    "fontawesome": "latest",
+    "animate.css": "^3.5.2"
+  }
+}
