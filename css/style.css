@@ -20,11 +20,17 @@ a {
 .container {
   outline: 1px solid blue; }
 
-.col-sm-2,
-.col-sm-3 {
-  outline: 1px solid; }
-
 /*==========  TOP_MENU BEGIN  ==========*/
+.navbar {
+  margin-bottom: 30px; }
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+  outline: none;
+  border: none; }
+
 .navbar-toggle {
   position: relative;
   padding: 15px 12px;
@@ -41,22 +47,15 @@ a {
   margin: 0 25px; }
 .main-top-menu li:hover {
   box-shadow: none; }
-.main-top-menu .nav > li > a {
-  /*line-height: 50px;*/ }
-.main-top-menu .nav > li > a:focus,
-.main-top-menu .nav > li > a:hover {
-  background-color: transparent;
-  text-decoration: underline;
-  outline: none;
-  border: none; }
 
 /*main-top-menu*/
 .top__logo {
   text-transform: uppercase; }
   .top__logo .top__logo-name {
-    font-size: 24px; }
+    font-size: 22px; }
   .top__logo .top__logo-defin {
-    font-size: 11px; }
+    font-size: 10px;
+    letter-spacing: 3px; }
 
 .back__call a {
   font-size: 14px;
@@ -74,6 +73,20 @@ a {
 
 .top__adress {
   font-size: 14px; }
+
+#menu-top li {
+  margin: 0 10px; }
+
+.col-md-5 {
+  outline: 1px solid blue; }
+
+.bg-top {
+  background: #fff url(../img/bg-top.jpg) 0 0 no-repeat;
+  height: 500px; }
+
+.name__obj {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 60px; }
 
 /*==========  TOP_MENU END =============*/
 /*==========  Media Screen`s  ==========*/

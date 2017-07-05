@@ -26,12 +26,18 @@ a {
   outline: 1px solid blue;
 }
 
-.col-sm-2,
-.col-sm-3 {
-  outline: 1px solid;
+/*==========  TOP_MENU BEGIN  ==========*/
+.navbar{
+  margin-bottom: 30px;
 }
 
-/*==========  TOP_MENU BEGIN  ==========*/
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+  outline: none;
+  border: none;
+}
 
 .navbar-toggle {
   position: relative;
@@ -51,6 +57,8 @@ a {
 
 .main-top-menu {
 
+
+
   li {
     margin: 0 25px;
   }
@@ -59,31 +67,22 @@ a {
     box-shadow: none;
   }
 
-  .nav > li > a {
-    /*line-height: 50px;*/
-  }
 
-  .nav > li > a:focus,
-  .nav > li > a:hover {
-    background-color: transparent;
-    text-decoration: underline;
-    outline: none;
-    border: none;
-  }
 
-}
+}/*main-top-menu*/
 
-/*main-top-menu*/
+
 
 .top__logo {
   text-transform: uppercase;
 
   .top__logo-name {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .top__logo-defin {
-    font-size: 11px;
+    font-size: 10px;
+    letter-spacing: 3px;
   }
 
 }
@@ -113,6 +112,28 @@ a {
 .top__adress {
   font-size: 14px;
 }
+
+#menu-top{
+  li{
+    margin: 0 10px;
+  }
+
+}
+
+.col-md-5{
+  outline:1px solid blue;
+}
+
+.bg-top{
+  background: #fff url(../img/bg-top.jpg) 0 0 no-repeat;
+  height: 500px;
+}
+
+.name__obj{
+  font-family:"Open Sans Light", sans-serif;
+  font-size: 60px;
+}
+
 
 /*==========  TOP_MENU END =============*/
 

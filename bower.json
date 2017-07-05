@@ -21,6 +21,7 @@
     "bootstrap": "latest",
     "owl-carousel2": "latest",
     "fontawesome": "latest",
-    "animate.css": "^3.5.2"
+    "animate.css": "^3.5.2",
+    "owl.carousel": "^2.2.1"
   }
 }

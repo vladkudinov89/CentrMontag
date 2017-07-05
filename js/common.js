@@ -4,6 +4,18 @@
 
     $(document).ready(function () {
 
+        $(".class .owl-carousel").owlCarousel({
+
+            items: 1,
+
+            navigation:true,
+            pagination:true,
+            nav: true,
+            loop: true,
+            dots: true,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+        });
+
 
         // Add smooth scrolling on all links inside the navbar
         $("#myNavbar a").on('click', function (event) {
