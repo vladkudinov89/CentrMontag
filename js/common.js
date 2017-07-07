@@ -4,16 +4,28 @@
 
     $(document).ready(function () {
 
-        $(".class .owl-carousel").owlCarousel({
+        $("#service").owlCarousel({
 
             items: 1,
-
-            navigation:true,
-            pagination:true,
             nav: true,
             loop: true,
             dots: true,
             navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+         /*   animateOut: 'fadeOut',
+
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                600:{
+                    items:1,
+                    nav:false
+                },
+                1000:{
+                    items:1
+                }
+            }*/
         });
 
 

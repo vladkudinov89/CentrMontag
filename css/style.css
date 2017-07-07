@@ -3,7 +3,8 @@ body {
   color: #000;
   background-color: #fff;
   min-width: 320px;
-  font-size: 16px; }
+  font-size: 16px;
+  height: 100%; }
 
 ul, li {
   list-style: none; }
@@ -78,17 +79,134 @@ a {
   margin: 0 10px; }
 
 .col-md-5 {
-  outline: 1px solid blue; }
+  /*  outline: 1px solid blue;*/ }
 
-.bg-top {
-  background: #fff url(../img/bg-top.jpg) 0 0 no-repeat;
-  height: 500px; }
+/*==========  TOP_SLIDER END =============*/
+.slider-content {
+  padding: 50px 0 110px; }
 
-.name__obj {
-  font-family: "Open Sans Light", sans-serif;
-  font-size: 60px; }
+.bg-slide-1 {
+  background: #fff url(../img/bg-top.jpg) 50% 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; }
 
+.service__name {
+  font-family: "Open Sans Light", sans-serif; }
+  .service__name .service__name-obj {
+    font-size: 60px; }
+  .service__name .service__name-descr {
+    margin-top: 30px;
+    font-size: 24px; }
+
+.form {
+  background-color: rgba(139, 168, 185, 0.7);
+  /* Firefox 19+ */
+  /* Firefox 18- */ }
+  .form b {
+    display: inline-block;
+    margin: 40px 0 30px;
+    font-size: 18px; }
+  .form input[type="text"],
+  .form input[type="tel"],
+  .form input[type="submit"] {
+    width: 300px;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    line-height: 36px; }
+  .form input[type="submit"] {
+    border: none;
+    background-color: #ffbe02;
+    margin-bottom: 60px; }
+  .form ::-webkit-input-placeholder {
+    color: #000; }
+  .form ::-moz-placeholder {
+    color: #000; }
+  .form :-moz-placeholder {
+    color: #000; }
+  .form :-ms-input-placeholder {
+    color: #000; }
+
+#service {
+  position: relative; }
+  #service .owl-nav {
+    margin: 0;
+    color: #37ace5 !important; }
+    #service .owl-nav .owl-prev,
+    #service .owl-nav .owl-next {
+      display: inline-block;
+      position: absolute;
+      bottom: 0%;
+      font-size: 86px;
+      color: #f9fbfc; }
+    #service .owl-nav .owl-prev {
+      left: 4%; }
+    #service .owl-nav .owl-next {
+      right: 4%; }
+    #service .owl-nav .owl-prev:hover,
+    #service .owl-nav .owl-next:hover {
+      color: #ffbe02;
+      transition: all 0.5s; }
+  #service .owl-dots {
+    position: absolute;
+    bottom: 5%;
+    left: 50%; }
+  #service .owl-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin: 15px 5px; }
+  #service .owl-dot.active {
+    background-color: transparent;
+    border: 1px solid #f7f7f7;
+    border-radius: 50%; }
+
+/*==========  TOP_SLIDER END =============*/
 /*==========  TOP_MENU END =============*/
+/*=========Modal window begin=========*/
+#myModal .modal-header {
+  background-color: #32b0eb; }
+#myModal .modal-name {
+  margin-bottom: 20px; }
+#myModal .modal-h4 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF !important;
+  font-weight: 800; }
+#myModal label {
+  display: block;
+  font-family: "Open Sans Light", sans-serif;
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 300; }
+#myModal input {
+  max-width: 100%;
+  padding: 5px 20px;
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  outline: none;
+  border: 1px solid #cecece;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  color: #004481 !important;
+  /* Firefox 19+ */
+  /* Firefox 18- */ }
+  #myModal input ::-webkit-input-placeholder {
+    color: #004481; }
+  #myModal input ::-moz-placeholder {
+    color: #004481; }
+  #myModal input :-moz-placeholder {
+    color: #004481; }
+  #myModal input :-ms-input-placeholder {
+    color: #004481; }
+#myModal input:focus {
+  border: 1px solid #004481; }
+
+/*=========Modal window end===========*/
 /*==========  Media Screen`s  ==========*/
 /* Large Devices, Wide Screens */
 /*=============================================*/
