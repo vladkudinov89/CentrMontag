@@ -2,9 +2,32 @@
 ;(function () {
 
 
+
     $(document).ready(function () {
 
-        $("#service").owlCarousel({
+
+        var canvas = document.getElementById('ben-canvas');
+        var context = canvas.getContext('2d');
+
+        context.beginPath();
+        context.lineWidth = 1;
+        context.strokeStyle = '#ffbe20';
+
+        //рисуем по OY
+        context.moveTo(40,40);
+        context.lineTo(40,canvas.height - 80);
+        context.stroke();
+
+
+        //рисуем по OX
+        context.moveTo(40,40);
+        context.lineTo(canvas.height - 80,40);
+        context.stroke();
+
+
+        context.closePath();
+
+        $("#object__slider").owlCarousel({
 
             items: 1,
             nav: true,
@@ -52,6 +75,11 @@
                 $(".navbar-collapse").collapse('hide');
             }  // End if
         });
+
+
+
+
+
 
     })
 })();
