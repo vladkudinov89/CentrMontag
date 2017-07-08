@@ -16,12 +16,13 @@ h2 {
 a {
   color: #000 !important; }
 
-.container-fluid {
-  outline: 1px solid red; }
+/*.container-fluid {
+  outline: 1px solid red;
+}
 
 .container {
-  outline: 1px solid blue; }
-
+  outline: 1px solid blue;
+}*/
 .col-md-5 {
   /*  outline: 1px solid blue;*/ }
 
@@ -48,8 +49,11 @@ a {
   .navbar-toggle .icon-bar {
     background-color: #000 !important; }
 
+#main-menu li:nth-last-child(1) {
+  margin-right: 0; }
+
 .main-top-menu li {
-  margin: 0 25px; }
+  margin: 0 65px 0 0; }
 .main-top-menu li:hover {
   box-shadow: none; }
 
@@ -80,7 +84,7 @@ a {
   font-size: 14px; }
 
 #menu-top li {
-  margin: 0 10px; }
+  margin: 0 10px 0 0; }
 
 /*==========  TOP_SLIDER END =============*/
 .slider-content {
@@ -138,7 +142,7 @@ a {
     #object__slider .owl-nav .owl-next {
       display: inline-block;
       position: absolute;
-      bottom: 0%;
+      bottom: 0;
       font-size: 86px;
       color: #f9fbfc; }
     #object__slider .owl-nav .owl-prev {
@@ -295,6 +299,156 @@ a {
   z-index: -1; }
 
 /*==========  WE_WORK END =============*/
+/*==========  BENEFITS BEGIN =============*/
+.benefits-item-1,
+.benefits-item-2,
+.benefits-item-3,
+.benefits-item-4 {
+  padding: 0;
+  margin-bottom: 20px; }
+
+.benefits-item-1::before,
+.benefits-item-2::before,
+.benefits-item-3::before,
+.benefits-item-4::before {
+  content: '';
+  width: 32px;
+  height: 32px;
+  display: block;
+  float: left; }
+
+.benefits-item-1::before {
+  background: #fff url(../image/benefits/apartment.png) 0 0 no-repeat; }
+
+.benefits-item-2::before {
+  background: #fff url(../image/benefits/helmet.png) 0 0 no-repeat; }
+
+.benefits-item-3::before {
+  background: #fff url(../image/benefits/crane-lifting.png) 0 0 no-repeat; }
+
+.benefits-item-4::before {
+  background: #fff url(../image/benefits/protection.png) 0 0 no-repeat; }
+
+.ben-item-content {
+  margin-left: 50px;
+  position: relative; }
+  .ben-item-content b {
+    font-size: 18px;
+    padding-left: 20px; }
+  .ben-item-content p {
+    margin-top: 15px;
+    font-family: "Open Sans Light",sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 0 20px 20px; }
+
+.ben-item-content::before {
+  content: '';
+  width: 100px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  background-color: #ffbe02; }
+
+.ben-item-content::after {
+  content: '';
+  width: 1px;
+  height: 69px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  background-color: #ffbe02; }
+
+/*==========  BENEFITS END =============*/
+/*==========  PRIMER BEGIN =============*/
+.primer {
+  background-color: #f8f8f8; }
+  .primer figure {
+    position: relative; }
+    .primer figure img {
+      padding: 8px;
+      border: 1px solid #ffbe02; }
+    .primer figure figcaption {
+      position: absolute;
+      bottom: 11%;
+      left: 0;
+      right: 0;
+      display: inline-block; }
+      .primer figure figcaption span {
+        background-color: #fff;
+        padding: 10px 30px; }
+
+.primer-content {
+  margin-top: 30px;
+  margin-bottom: 80px; }
+
+.primer-name {
+  background: #fff url(../img/bg-line.png) 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 0 10px;
+  font-size: 24px; }
+
+.primer-text {
+  line-height: 24px;
+  margin: 30px 0; }
+
+/*==========  PRIMER END =============*/
+/*==========  BOTTOM-FORM BEGIN =============*/
+.btm-form {
+  margin: 70px 0; }
+
+.bottom-form {
+  background: #fff url(../img/form.png) 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; }
+  .bottom-form .btm-form-content {
+    line-height: 36px;
+    margin-bottom: 55px; }
+    .bottom-form .btm-form-content b {
+      display: inline-block;
+      font-size: 30px;
+      padding-top: 30px; }
+    .bottom-form .btm-form-content b::before {
+      content: '';
+      background: transparent url(../img/chatting.png) 0 0 no-repeat;
+      width: 32px;
+      height: 32px;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 20px; }
+    .bottom-form .btm-form-content input {
+      width: 305px;
+      border: none;
+      border-radius: 3px;
+      text-align: center; }
+    .bottom-form .btm-form-content input[type="tel"] {
+      margin: 0 10px; }
+    .bottom-form .btm-form-content input[type="submit"] {
+      background-color: #ffbe02; }
+
+/*==========  BOTTOM-FORM END =============*/
+/*==========  OTZYVY BEGIN=============*/
+.otzivy {
+  background-color: #f8f8f8; }
+  .otzivy img {
+    width: 100%; }
+
+/*==========  OTZYVY END =============*/
+/*==========  FOOTER BEGIN =============*/
+footer #bottom-menu ul {
+  margin: 0;
+  padding: 0 !important; }
+footer #bottom-menu li {
+  margin: 0 75px 0 0;
+  padding: 0; }
+  footer #bottom-menu li ul li {
+    margin-right: 0; }
+footer #bottom-menu li:nth-last-child(1) {
+  margin-right: 0 !important; }
+
+/*==========  FOOTER END =============*/
 /*=========Modal window begin=========*/
 #myModal .modal-header {
   background-color: #32b0eb; }

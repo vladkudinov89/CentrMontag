@@ -6,7 +6,7 @@
     $(document).ready(function () {
 
 
-        var canvas = document.getElementById('ben-canvas');
+       /* var canvas = document.getElementById('ben-canvas');
         var context = canvas.getContext('2d');
 
         context.beginPath();
@@ -25,7 +25,7 @@
         context.stroke();
 
 
-        context.closePath();
+        context.closePath();*/
 
         $("#object__slider").owlCarousel({
 
