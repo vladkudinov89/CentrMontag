@@ -1,0 +1,35 @@
+/*==========  FOOTER BEGIN =============*/
+
+footer{
+
+
+  #bottom-menu {
+
+    ul{
+      margin: 0;
+      padding: 0 !important;
+    }
+
+    li{
+      margin: 0 75px 0 0;
+      padding: 0;
+
+      ul{
+        li{
+          margin-right: 0;
+        }
+      }
+
+    }
+
+    li:nth-last-child(1){
+      margin-right: 0 !important;
+    }
+
+
+  }
+
+
+}
+
+/*==========  FOOTER END =============*/

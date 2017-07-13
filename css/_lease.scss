@@ -1,0 +1,46 @@
+/*==========  LEASE BEGIN =============*/
+.lease{
+  margin-bottom: 70px;
+
+  a{
+    display: block;
+  }
+}
+
+.lease-item-1 a:nth-child(1):before {
+  content: '';
+  margin: 0 auto;
+  display: block;
+  background: #fff url(../image/lease/1.png) 0 0 no-repeat;
+  width: 200px;
+  height: 180px;
+}
+
+.lease-item-2 a:nth-child(1):before {
+  content: '';
+  margin: 0 auto;
+  display: block;
+  background: #fff url(../image/lease/2.png) 0 0 no-repeat;
+  width: 200px;
+  height: 180px;
+}
+
+.lease-item-3 a:nth-child(1):before {
+  content: '';
+  margin: 0 auto;
+  display: block;
+  background: #fff url(../image/lease/3.png) 0 0 no-repeat;
+  width: 200px;
+  height: 180px;
+}
+
+.lease-item-4 a:nth-child(1):before {
+  content: '';
+  margin: 0 auto;
+  display: block;
+  background: #fff url(../image/lease/4.png) 0 0 no-repeat;
+  width: 200px;
+  height: 180px;
+}
+
+/*==========  LEASE END =============*/

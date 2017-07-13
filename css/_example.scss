@@ -1,0 +1,51 @@
+/*==========  EXAMPLE BEGIN =============*/
+
+.primer{
+  background-color: #f8f8f8;
+
+  figure{
+    position: relative;
+
+
+    img{
+      padding: 8px;
+      border: 1px solid #ffbe02;
+    }
+
+    figcaption{
+      position: absolute;
+      bottom: 11%;
+      left: 0;
+      right: 0;
+      display: inline-block;
+
+      span{
+        background-color: #fff;
+        padding: 10px 30px;
+      }
+    }
+
+  }
+
+}
+
+.primer-content{
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.primer-name{
+  background: #fff url(../img/bg-line.png) 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 0 10px;
+  font-size: 24px;
+}
+
+.primer-text{
+  line-height: 24px;
+  margin: 30px 0;
+}
+
+
+/*==========  EXAMPLE END =============*/

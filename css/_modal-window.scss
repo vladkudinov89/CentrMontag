@@ -1,0 +1,64 @@
+/*=========Modal window begin=========*/
+
+#myModal {
+
+  .modal-header {
+    background-color: #32b0eb;
+  }
+
+  .modal-name {
+    margin-bottom: 20px;
+  }
+
+  .modal-h4 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+    font-weight: 800;
+
+  }
+
+  label {
+    display: block;
+    font-family: "Open Sans Light", sans-serif;
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  input {
+    max-width: 100%;
+    padding: 5px 20px;
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    outline: none;
+    border: 1px solid #cecece;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    color: #004481 !important;
+
+    ::-webkit-input-placeholder {
+      color: #004481;
+    }
+    ::-moz-placeholder {
+      color: #004481;
+    }
+    /* Firefox 19+ */
+    :-moz-placeholder {
+      color: #004481;
+    }
+    /* Firefox 18- */
+    :-ms-input-placeholder {
+      color: #004481;
+    }
+
+  }
+
+  input:focus {
+    border: 1px solid #004481;
+  }
+
+}
+
+/*=========Modal window end===========*/

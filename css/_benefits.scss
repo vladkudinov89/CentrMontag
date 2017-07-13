@@ -1,0 +1,80 @@
+/*==========  BENEFITS BEGIN =============*/
+.benefits-item-1,
+.benefits-item-2,
+.benefits-item-3,
+.benefits-item-4{
+  padding: 0;
+  margin-bottom: 20px;
+
+}
+
+
+.benefits-item-1::before,
+.benefits-item-2::before,
+.benefits-item-3::before,
+.benefits-item-4::before{
+  content: '';
+  width: 32px;
+  height: 32px;
+  display: block;
+  float: left;
+}
+
+.benefits-item-1::before{
+  background: #fff url(../image/benefits/apartment.png) 0 0 no-repeat;
+}
+
+.benefits-item-2::before{
+  background: #fff url(../image/benefits/helmet.png) 0 0 no-repeat;
+}
+
+.benefits-item-3::before{
+  background: #fff url(../image/benefits/crane-lifting.png) 0 0 no-repeat;
+}
+
+.benefits-item-4::before{
+  background: #fff url(../image/benefits/protection.png) 0 0 no-repeat;
+}
+
+.ben-item-content{
+  margin-left: 50px;
+  position: relative;
+
+  b{
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
+  p{
+    margin-top: 15px;
+    font-family:"Open Sans Light",sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    padding:0 0 20px 20px;
+  }
+
+}
+
+.ben-item-content::before{
+  content: '';
+  width: 100px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  background-color: #ffbe02;
+}
+
+.ben-item-content::after{
+  content: '';
+  width: 1px;
+  height: 69px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  background-color: #ffbe02;
+}
+
+
+
+/*==========  BENEFITS END =============*/

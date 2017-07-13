@@ -1,31 +1,3 @@
-body {
-  font-family: "Open Sans Regular", sans-serif;
-  color: #000;
-  background-color: #fff;
-  min-width: 320px;
-  font-size: 16px;
-  height: 100%; }
-
-ul, li {
-  list-style: none; }
-
-h2 {
-  font-size: 30px;
-  margin: 60px 0 50px; }
-
-a {
-  color: #000 !important; }
-
-/*.container-fluid {
-  outline: 1px solid red;
-}
-
-.container {
-  outline: 1px solid blue;
-}*/
-.col-md-5 {
-  /*  outline: 1px solid blue;*/ }
-
 /*==========  TOP_MENU BEGIN  ==========*/
 .navbar {
   margin: 30px 0; }
@@ -84,7 +56,9 @@ a {
   font-size: 14px; }
 
 #menu-top li {
-  margin: 0 10px 0 0; }
+  margin: 0 30px 0 0; }
+#menu-top li:nth-last-child(1) {
+  margin-right: 0; }
 
 /*==========  TOP_SLIDER END =============*/
 .slider-content {
@@ -206,6 +180,8 @@ a {
 /*==========  LEASE BEGIN =============*/
 .lease {
   margin-bottom: 70px; }
+  .lease a {
+    display: block; }
 
 .lease-item-1 a:nth-child(1):before {
   content: '';
@@ -361,7 +337,7 @@ a {
   background-color: #ffbe02; }
 
 /*==========  BENEFITS END =============*/
-/*==========  PRIMER BEGIN =============*/
+/*==========  EXAMPLE BEGIN =============*/
 .primer {
   background-color: #f8f8f8; }
   .primer figure {
@@ -394,7 +370,7 @@ a {
   line-height: 24px;
   margin: 30px 0; }
 
-/*==========  PRIMER END =============*/
+/*==========  EXAMPLE END =============*/
 /*==========  BOTTOM-FORM BEGIN =============*/
 .btm-form {
   margin: 70px 0; }
@@ -403,30 +379,32 @@ a {
   background: #fff url(../img/form.png) 0 0 no-repeat;
   -webkit-background-size: cover;
   background-size: cover; }
-  .bottom-form .btm-form-content {
-    line-height: 36px;
-    margin-bottom: 55px; }
-    .bottom-form .btm-form-content b {
-      display: inline-block;
-      font-size: 30px;
-      padding-top: 30px; }
-    .bottom-form .btm-form-content b::before {
-      content: '';
-      background: transparent url(../img/chatting.png) 0 0 no-repeat;
-      width: 32px;
-      height: 32px;
-      display: inline-block;
-      vertical-align: top;
-      margin-right: 20px; }
-    .bottom-form .btm-form-content input {
-      width: 305px;
-      border: none;
-      border-radius: 3px;
-      text-align: center; }
-    .bottom-form .btm-form-content input[type="tel"] {
-      margin: 0 10px; }
-    .bottom-form .btm-form-content input[type="submit"] {
-      background-color: #ffbe02; }
+
+.btm-form-content {
+  line-height: 36px;
+  margin-bottom: 55px; }
+  .btm-form-content b {
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 30px; }
+  .btm-form-content b::before {
+    content: '';
+    background: transparent url(../img/chatting.png) 0 0 no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; }
+  .btm-form-content input {
+    width: 305px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px; }
+  .btm-form-content input[type="tel"] {
+    margin: 0 10px; }
+  .btm-form-content input[type="submit"] {
+    background-color: #ffbe02; }
 
 /*==========  BOTTOM-FORM END =============*/
 /*==========  OTZYVY BEGIN=============*/
@@ -490,20 +468,106 @@ footer #bottom-menu li:nth-last-child(1) {
   border: 1px solid #004481; }
 
 /*=========Modal window end===========*/
-/*==========  Media Screen`s  ==========*/
-/* Large Devices, Wide Screens */
-/*=============================================*/
-/*=============================================*/
-/*=============================================*/
-/* Medium Devices, Desktops */
-/*=============================================*/
-@media (min-width: 768px) {
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
   .test {
     display: none !important; } }
-/* Small Devices, Tablets */
-/*=============================================*/
-/* Extra Small Devices, Phones */
-/*=============================================*/
-/* Custom, iPhone Retina */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/*
+
+
+!*==========  Non-Mobile First Method  ==========*!
+
+!* Large Devices, Wide Screens *!
+@media only screen and (max-width : 1200px) {
+
+}
+
+!* Medium Devices, Desktops *!
+@media only screen and (max-width : 992px) {
+
+}
+
+!* Small Devices, Tablets *!
+@media only screen and (max-width : 768px) {
+
+}
+
+!* Extra Small Devices, Phones *!
+@media only screen and (max-width : 480px) {
+
+}
+
+!* Custom, iPhone Retina *!
+@media only screen and (max-width : 320px) {
+
+}
+*/
+.breadcrumb {
+  background-color: #ffd24d !important;
+  border-radius: 0; }
+  .breadcrumb ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+    .breadcrumb ul li {
+      display: block;
+      float: left; }
+      .breadcrumb ul li a {
+        text-decoration: underline; }
+    .breadcrumb ul li:nth-last-child(1) a:nth-last-child(1) {
+      text-decoration: none; }
+    .breadcrumb ul li::after {
+      content: ' ';
+      display: inline-block;
+      width: 13px;
+      height: 2px;
+      background-color: #7f6926;
+      vertical-align: middle;
+      margin: 0 8px; }
+    .breadcrumb ul li:nth-last-child(1):after {
+      display: none; }
+
+.contacts-map {
+  margin-top: 30px; }
+
+img {
+  width: 100%; }
+
+.contacts-form {
+  background-color: #ededed; }
+
+body {
+  font-family: "Open Sans Regular", sans-serif;
+  color: #000;
+  background-color: #fff;
+  min-width: 320px;
+  font-size: 16px;
+  height: 100%; }
+
+ul, li {
+  list-style: none; }
+
+h2 {
+  font-size: 30px;
+  margin: 60px 0 50px; }
+
+a {
+  color: #000 !important; }
+
+/*.container-fluid {
+  outline: 1px solid red;
+}
+
+.container {
+  outline: 1px solid blue;
+}*/
 
 /*# sourceMappingURL=style.css.map */

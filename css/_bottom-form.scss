@@ -1,0 +1,58 @@
+/*==========  BOTTOM-FORM BEGIN =============*/
+
+.btm-form{
+  margin: 70px 0;
+}
+
+.bottom-form{
+  background: #fff url(../img/form.png) 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+  .btm-form-content{
+    line-height: 36px;
+
+    margin-bottom: 55px;
+
+    b{
+      display: inline-block;
+      font-size: 30px;
+      padding-top: 30px;
+    }
+
+    b::before{
+      content: '';
+      background: transparent url(../img/chatting.png) 0 0 no-repeat;
+      width: 32px;
+      height: 32px;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 20px;
+    }
+
+    input{
+      width: 305px;
+      border: none;
+      border-radius: 3px;
+      text-align: center;
+      line-height: 30px;
+    }
+
+
+    input[type="tel"]{
+      margin:0 10px;
+    }
+
+    input[type="submit"]{
+      background-color: #ffbe02;
+    }
+
+  }
+
+
+
+
+
+
+/*==========  BOTTOM-FORM END =============*/

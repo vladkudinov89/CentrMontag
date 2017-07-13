@@ -1,0 +1,44 @@
+/*==========  SERVICE BEGIN =============*/
+.service__items {
+
+  img {
+    width: 100%;
+  }
+
+}
+
+.item {
+  border: 0.5px solid #fff;
+}
+
+.item-position {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+.back {
+  display: none;
+  position: absolute;
+  top: 45%;
+  color: #fff;
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0 50px;
+}
+
+.item > .item-position:hover {
+  background-color: rgba(1, 9, 14, 0.71);
+}
+
+.item > .item-position:hover .front {
+  opacity: 0.4;
+}
+
+.item > .item-position:hover .back {
+  display: block;
+
+}
+
+/*==========  SERVICE END =============*/
