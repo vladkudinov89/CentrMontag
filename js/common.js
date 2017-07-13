@@ -5,6 +5,11 @@
 
     $(document).ready(function () {
 
+      /*  $( '.menu-top .navbar-nav a' ).on( 'click', function () {
+            $( '.menu-top .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+            $( this ).parent( 'li' ).addClass( 'active' );
+        });*/
+
 
        /* var canvas = document.getElementById('ben-canvas');
         var context = canvas.getContext('2d');
